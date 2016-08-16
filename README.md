@@ -33,21 +33,38 @@ PILOT_API_DEBUG=false
 ```
 
 ## Usage
-### Store
+### Create and store Leads
+
+See fields documentation at [official Pilot API reference](http://www.pilotsolution.com.ar/home/api.php)
 
 ```php
 <?php
 
-$lead_data = [
+/**
+ * Create Lead
+ */
+
+// From array (field names without "pilot_" prefix)
+$lead_data = new \Zephia\PilotApiClient\LeadData([
+    'business_type_id' => 1,
+    'contact_type_id' => 1,
     'firstname' => 'John',
     'lastname' = 'Doe',
     'phone' => '+543512345678',
     'email' => 'john.doe@domain.com'
-];
-$business_type_id = 1;
-$contact_type_id = 1;
+]);
 
-$pilot = app('pilot')->storeLead($lead_data, $business_type_id, $contact_type_id);
+// Using setters (camelcase)
+$lead_data = new \Zephia\PilotApiClient\LeadData();
+$lead_data->setFirstName('John');
+$lead_data->setLastName('Doe');
+$lead_data->setPhone('+543512345678');
+$lead_data->setEmail('john.doe@domain.com');
+
+/**
+ * Store Lead
+ */
+$pilot = app('pilot')->storeLead($lead_data);
 
 // Returns API response.
 ```
