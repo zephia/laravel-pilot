@@ -33,7 +33,7 @@ PILOT_API_DEBUG=false
 ```
 
 ## Usage
-### Create and store Leads
+### Create and store lead
 
 See fields documentation at [official Pilot API reference](http://www.pilotsolution.com.ar/home/api.php)
 
