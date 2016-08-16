@@ -22,7 +22,7 @@ Then register this service provider with Laravel in config/app.php:
 Publish config file:
 
 ```bash
-php artisan vendor:publish --provider='Zephia\LaravelPilot\LaravelPilotServiceProvider' --tag="config"
+php artisan vendor:publish --provider="Zephia\LaravelPilot\LaravelPilotServiceProvider" --tag="config"
 ```
 
 Add **PILOT_APP_KEY** and **PILOT_API_DEBUG** constants to your .env file:
