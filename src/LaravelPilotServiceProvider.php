@@ -1,13 +1,13 @@
 <?php
 
-namespace Zephia\Pilot;
+namespace Zephia\LaravelPilot;
 
 use Illuminate\Support\ServiceProvider;
 use Zephia\PilotApiClient\Client\PilotApiClient;
 
 class PilotServiceProvider extends ServiceProvider
 {
-    protected $packageName = 'Pilot';
+    protected $packageName = 'LaravelPilot';
 
     /**
      * Bootstrap the application services.
