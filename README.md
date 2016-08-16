@@ -25,11 +25,11 @@ Publish config file:
 php artisan vendor:publish --provider='Zephia\Pilot\PilotServiceProvider' --tag="config"
 ```
 
-Add **PILOT_APP_KEY** and **PILOT_DEBUG** constants to your .env file:
+Add **PILOT_APP_KEY** and **PILOT_API_DEBUG** constants to your .env file:
 
 ```
 PILOT_APP_KEY=YOUR-PILOT-APP-KEY
-PILOT_DEBUG=false
+PILOT_API_DEBUG=false
 ```
 
 ## Usage

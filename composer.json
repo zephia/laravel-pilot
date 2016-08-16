@@ -1,0 +1,24 @@
+{
+  "name": "zephia/laravel-pilot",
+  "description": "This package is an implementation of Pilot CRM API for Laravel Framework.",
+  "keywords": ["laravel", "pilot", "crm"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cristian Jimenez",
+      "email": "djpepa@hotmail.com"
+    }
+  ],
+  "require": {
+    "zephia/pilot-api-client": "^1.0"
+  },
+  "require-dev": {
+    "illuminate/support": "4.*|5.*",
+    "phpunit/phpunit": "3.7.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Zephia\\Pilot": ["src/"]
+    }
+  }
+}
