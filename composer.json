@@ -1,6 +1,6 @@
 {
   "name": "zephia/laravel-pilot",
-  "description": "This package is an implementation of Pilot CRM API for Laravel Framework.",
+  "description": "This package is a wrapper of Pilot CRM API Client PHP Class for Laravel Framework.",
   "keywords": ["laravel", "pilot", "crm"],
   "license": "MIT",
   "authors": [

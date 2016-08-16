@@ -1,5 +1,5 @@
 # laravel-pilot
-This package is and implementation of Pilot CRM API for Laravel Framework.
+This package is a wrapper of Pilot CRM API Client PHP Class for Laravel Framework.
 
 ## Installation
 
