@@ -45,7 +45,7 @@ See fields documentation at [official Pilot API reference](http://www.pilotsolut
  */
 
 // From array (field names without "pilot_" prefix)
-$lead_data = new \Zephia\PilotApiClient\LeadData([
+$lead_data = new \Zephia\PilotApiClient\Model\LeadData([
     'business_type_id' => 1,
     'contact_type_id' => 1,
     'suborigin_id' => 'FFFF0000',
@@ -56,7 +56,7 @@ $lead_data = new \Zephia\PilotApiClient\LeadData([
 ]);
 
 // Using setters (camelcase)
-$lead_data = new \Zephia\PilotApiClient\LeadData();
+$lead_data = new \Zephia\PilotApiClient\Model\LeadData();
 $lead_data->setBusinessTypeId(1);
 $lead_data->setContactTypeId(1);
 $lead_data->setSuboriginId('FFFF0000');
