@@ -61,7 +61,6 @@ $lead_data->setBusinessTypeId(1);
 $lead_data->setContactTypeId(1);
 $lead_data->setSuboriginId('FFFF0000');
 $lead_data->setFirstName('John');
-$lead_data->setFirstName('John');
 $lead_data->setLastName('Doe');
 $lead_data->setPhone('+543512345678');
 $lead_data->setEmail('john.doe@domain.com');
