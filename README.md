@@ -48,7 +48,7 @@ See fields documentation at [official Pilot API reference](http://www.pilotsolut
 $lead_data = new \Zephia\PilotApiClient\LeadData([
     'business_type_id' => 1,
     'contact_type_id' => 1,
-    'suborigin__id' => 'FFFF0000',
+    'suborigin_id' => 'FFFF0000',
     'firstname' => 'John',
     'lastname' = 'Doe',
     'phone' => '+543512345678',
