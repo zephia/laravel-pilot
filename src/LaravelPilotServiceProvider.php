@@ -17,7 +17,7 @@ class LaravelPilotServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . 'config/pilot.php' => config_path('pilot.php'),
+            __DIR__ . '/config/pilot.php' => config_path('pilot.php'),
         ], 'config');
 
         $this->app->bind('pilot', function () {
