@@ -70,6 +70,6 @@ $lead_data->setEmail('john.doe@domain.com');
  */
 $pilot = app('pilot')->storeLead($lead_data);
 
-// Returns API response.
+// Returns API response object.
 ```
 
