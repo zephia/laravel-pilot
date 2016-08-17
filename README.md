@@ -1,5 +1,5 @@
 # laravel-pilot
-This package is a wrapper of Pilot CRM API Client PHP Class for Laravel Framework.
+This package is a wrapper of [Pilot CRM API Client PHP Class](https://github.com/zephia/pilot-api-client) for Laravel Framework.
 
 ## Installation
 
